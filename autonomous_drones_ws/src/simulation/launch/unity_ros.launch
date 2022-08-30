@@ -1,0 +1,52 @@
+<launch>
+  <arg name="load_params" default="true" />
+  <arg name="robot_name" />
+  <arg name="unity_port" />
+
+  <!-- Arguments for drone 1 -->
+  <arg name="pose_topic" default="/drone_1/true_pose" />
+  <arg name="right_image_topic" default="/drone_1/realsense/rgb/image_rect_raw" />
+  <arg name="right_info_topic" default="/drone_1/realsense/rgb/camera_info" />
+  <arg name="left_image_topic" default="/drone_1/realsense/rgb/image_rect_raw" />
+  <arg name="left_info_topic" default="/drone_1/realsense/rgb/camera_info" />
+  <arg name="depth_image_topic" default="/drone_1/realsense/depth/image_rect_raw" />
+  <arg name="depth_info_topic" default="/drone_1/realsense/depth/camera_info" />
+  <arg name="imu_topic" default="/drone_1/interpolate_imu/imu" />
+
+  <!-- Arguments for drone 2 -->  
+  <arg name="pose_topic2" default="/drone_2/true_pose" />
+  <arg name="right_image_topic2" default="/drone_2/realsense/rgb/image_rect_raw" />
+  <arg name="right_info_topic2" default="/drone_2/realsense/rgb/camera_info" />
+  <arg name="left_image_topic2" default="/drone_2/realsense/rgb/image_rect_raw" />
+  <arg name="left_info_topic2" default="/drone_2/realsense/rgb/camera_info" />
+  <arg name="depth_image_topic2" default="/drone_2/realsense/depth/image_rect_raw" />
+  <arg name="depth_info_topic2" default="/drone_2/realsense/depth/camera_info" />
+  <arg name="imu_topic2" default="/drone_2/interpolate_imu/imu" /> 
+
+  <node pkg="simulation" type="unity_ros" name="unity_ros" >
+    <param name="robot_name" value="$(arg robot_name)"/>
+    <param name="unity_port" value="$(arg unity_port)"/>
+    <!-- Mapping drone 1-->
+    <remap from="~Quadrotor/Sensors/IMU/pose" to="$(arg pose_topic)" />
+    <remap from="~Quadrotor/Sensors/IMU/twist" to="true_twist" />
+    <remap from="~Quadrotor/Sensors/DepthCamera/image_raw" to="$(arg depth_image_topic)" />
+    <remap from="~Quadrotor/Sensors/DepthCamera/camera_info" to="$(arg depth_info_topic)" />
+    <remap from="~Quadrotor/Sensors/RGBCameraLeft/image_raw" to="$(arg left_image_topic)" />
+    <remap from="~Quadrotor/Sensors/RGBCameraLeft/camera_info" to="$(arg left_info_topic)" />
+    <remap from="~Quadrotor/Sensors/RGBCameraRight/image_raw" to="$(arg right_image_topic)" />
+    <remap from="~Quadrotor/Sensors/RGBCameraRight/camera_info" to="$(arg right_info_topic)" />
+    <remap from="~Quadrotor/IMU" to="$(arg imu_topic)" />
+
+    <!-- Mapping drone 2 -->
+    <remap from="~Quadrotor2/Sensors/IMU/pose" to="$(arg pose_topic2)" />
+    <remap from="~Quadrotor2/Sensors/IMU/twist" to="true_twist" />
+    <remap from="~Quadrotor2/Sensors/DepthCamera/image_raw" to="$(arg depth_image_topic2)" />
+    <remap from="~Quadrotor2/Sensors/DepthCamera/camera_info" to="$(arg depth_info_topic2)" />
+    <remap from="~Quadrotor2/Sensors/RGBCameraLeft/image_raw" to="$(arg left_image_topic2)" />
+    <remap from="~Quadrotor2/Sensors/RGBCameraLeft/camera_info" to="$(arg left_info_topic2)" />
+    <remap from="~Quadrotor2/Sensors/RGBCameraRight/image_raw" to="$(arg right_image_topic2)" />
+    <remap from="~Quadrotor2/Sensors/RGBCameraRight/camera_info" to="$(arg right_info_topic2)" />
+    <remap from="~Quadrotor2/IMU" to="$(arg imu_topic2)" /> 
+  </node>
+
+</launch>

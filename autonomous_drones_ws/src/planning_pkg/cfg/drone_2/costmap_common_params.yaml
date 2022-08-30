@@ -1,0 +1,11 @@
+obstacle_range: 90
+raytrace_range: 9.5
+#footprint: [[x0, y0], [x1, y1], ... [xn, yn]]
+#robot_radius: ir_of_robot
+inflation_radius: 0.3
+
+transform_tolerance: 0.3
+
+observation_sources: depth_camera
+
+depth_camera: {sensor_frame: Quadrotor2/Sensors/DepthCamera, data_type: PointCloud, topic: sensor_msgs/PointCloud, marking: true, clearing: true}

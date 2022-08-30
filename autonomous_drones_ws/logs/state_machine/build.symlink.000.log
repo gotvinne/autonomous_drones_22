@@ -1,0 +1,4 @@
+Symlinking /home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/lib/state_machine/state_machine
+Symlinking /home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/lib/pkgconfig/state_machine.pc
+Symlinking /home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/share/state_machine/cmake/state_machineConfig-version.cmake
+Symlinking /home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/share/state_machine/cmake/state_machineConfig.cmake

@@ -1,0 +1,94 @@
+Cloning into 'libsocket'...
+Already on 'master'
+CMake Warning (dev) at /usr/share/cmake-3.16/Modules/CPack.cmake:569 (option):
+  Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+  --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+  For compatibility with older versions of CMake, option is clearing the
+  normal variable 'CPACK_BINARY_TZ'.
+Call Stack (most recent call first):
+  CMakeLists.txt:64 (INCLUDE)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /usr/share/cmake-3.16/Modules/CPack.cmake:571 (option):
+  Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+  --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+  For compatibility with older versions of CMake, option is clearing the
+  normal variable 'CPACK_BINARY_DEB'.
+Call Stack (most recent call first):
+  CMakeLists.txt:64 (INCLUDE)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /usr/share/cmake-3.16/Modules/CPack.cmake:574 (option):
+  Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+  --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+  For compatibility with older versions of CMake, option is clearing the
+  normal variable 'CPACK_BINARY_RPM'.
+Call Stack (most recent call first):
+  CMakeLists.txt:64 (INCLUDE)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /usr/share/cmake-3.16/Modules/CPack.cmake:575 (option):
+  Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+  --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+  For compatibility with older versions of CMake, option is clearing the
+  normal variable 'CPACK_BINARY_STGZ'.
+Call Stack (most recent call first):
+  CMakeLists.txt:64 (INCLUDE)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /usr/share/cmake-3.16/Modules/CPack.cmake:576 (option):
+  Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+  --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+  For compatibility with older versions of CMake, option is clearing the
+  normal variable 'CPACK_BINARY_TBZ2'.
+Call Stack (most recent call first):
+  CMakeLists.txt:64 (INCLUDE)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /usr/share/cmake-3.16/Modules/CPack.cmake:577 (option):
+  Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+  --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+  For compatibility with older versions of CMake, option is clearing the
+  normal variable 'CPACK_BINARY_TGZ'.
+Call Stack (most recent call first):
+  CMakeLists.txt:64 (INCLUDE)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+make[3]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+[01m[K/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/build/simulation/libsocket-prefix/src/libsocket/C/inet/libinetsocket.c:[m[K In function ‘[01m[Kcreate_inet_stream_socket[m[K’:
+[01m[K/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/build/simulation/libsocket-prefix/src/libsocket/C/inet/libinetsocket.c:221:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksfd[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  221 |         [01;35m[Kclose(sfd)[m[K;
+      |         [01;35m[K^~~~~~~~~~[m[K
+make[3]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+In file included from [01m[K/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/src/simulation/src/unity_ros.cpp:10[m[K:
+[01m[K/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/src/simulation/src/rgb_camera_parser.h:[m[K In member function ‘[01m[Kvirtual bool RGBCameraParser::ParseMessage(const UnityHeader&, TCPStreamReader&, double)[m[K’:
+[01m[K/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/src/simulation/src/rgb_camera_parser.h:22:3:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   22 |   [01;35m[K}[m[K
+      |   [01;35m[K^[m[K
+In file included from [01m[K/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/src/simulation/src/unity_ros.cpp:12[m[K:
+[01m[K/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/src/simulation/src/fisheye_camera_parser.h:[m[K In member function ‘[01m[Kvirtual bool FisheyeCameraParser::ParseMessage(const UnityHeader&, TCPStreamReader&, double)[m[K’:
+[01m[K/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/src/simulation/src/fisheye_camera_parser.h:20:3:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   20 |   [01;35m[K}[m[K
+      |   [01;35m[K^[m[K
+In file included from [01m[K/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/src/simulation/src/unity_ros.cpp:13[m[K:
+[01m[K/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/src/simulation/src/imu_parser.h:[m[K In member function ‘[01m[Kvirtual bool IMUParser::ParseMessage(const UnityHeader&, TCPStreamReader&, double)[m[K’:
+[01m[K/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/src/simulation/src/imu_parser.h:42:3:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   42 |   [01;35m[K}[m[K
+      |   [01;35m[K^[m[K
+In file included from [01m[K/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/src/simulation/src/unity_ros.cpp:14[m[K:
+[01m[K/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/src/simulation/src/true_state_parser.h:[m[K In member function ‘[01m[Kvirtual bool TrueStateParser::ParseMessage(const UnityHeader&, TCPStreamReader&, double)[m[K’:
+[01m[K/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/src/simulation/src/true_state_parser.h:93:3:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   93 |   [01;35m[K}[m[K
+      |   [01;35m[K^[m[K

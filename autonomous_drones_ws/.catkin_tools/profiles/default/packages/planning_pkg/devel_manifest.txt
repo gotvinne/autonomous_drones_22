@@ -1,0 +1,8 @@
+planning_pkg
+/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/.private/planning_pkg/cmake.lock /home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/./cmake.lock
+/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/.private/planning_pkg/lib/pkgconfig/planning_pkg.pc /home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/lib/pkgconfig/planning_pkg.pc
+/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/.private/planning_pkg/lib/planning_pkg/pointcloud_merger /home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/lib/planning_pkg/pointcloud_merger
+/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/.private/planning_pkg/lib/planning_pkg/map_service /home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/lib/planning_pkg/map_service
+/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/.private/planning_pkg/lib/planning_pkg/point_cloud_converter /home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/lib/planning_pkg/point_cloud_converter
+/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/.private/planning_pkg/share/planning_pkg/cmake/planning_pkgConfig.cmake /home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/share/planning_pkg/cmake/planning_pkgConfig.cmake
+/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/.private/planning_pkg/share/planning_pkg/cmake/planning_pkgConfig-version.cmake /home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/share/planning_pkg/cmake/planning_pkgConfig-version.cmake

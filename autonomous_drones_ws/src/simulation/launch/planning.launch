@@ -1,0 +1,44 @@
+<launch>
+  <arg name="robot_name"/>
+  <arg name="potential_scale"/>
+
+  <!-- Remapping because of use of different namespaces-->
+  <remap from="map" to="/map"/>
+
+  <!-- Provide the map service and right pointcloud version to move base-->
+  <node name="map_service" pkg="planning_pkg" type="map_service"/>
+  <node name="point_cloud_converter" pkg="planning_pkg" type="point_cloud_converter">
+    <param name="pointcloud_topic_in" value="camera/pointcloud"/>
+    <param name="pointcloud_topic_out" value="sensor_msgs/PointCloud"/>
+  </node>
+  
+  <!-- Launching explore_lite package-->
+  <node pkg="explore_lite" type="explore" respawn="false" name="explore" >
+    <param name="robot_base_frame" value="$(arg robot_name)/body"/>
+    <param name="costmap_topic" value="map"/>
+    <param name="visualize" value="true"/>
+    <param name="planner_frequency" value="0.1"/>
+    <param name="progress_timeout" value="15.0"/>
+    <param name="potential_scale" value="$(arg potential_scale)"/>
+    <param name="orientation_scale" value="0.0"/>
+    <param name="gain_scale" value="1.0"/>
+    <param name="transform_tolerance" value="0.3"/>
+    <param name="min_frontier_size" value="0.75"/>
+  </node>
+ 
+  <!-- Launching planning algorithm-->
+  <node pkg="move_base" type="move_base" respawn="false" name="move_base">
+    <rosparam file="$(find planning_pkg)/cfg/$(arg robot_name)/costmap_common_params.yaml" command="load" ns="global_costmap" /> 
+    <rosparam file="$(find planning_pkg)/cfg/$(arg robot_name)/costmap_common_params.yaml" command="load" ns="local_costmap" /> 
+    <rosparam file="$(find planning_pkg)/cfg/$(arg robot_name)/local_costmap_params.yaml" command="load" />
+    <rosparam file="$(find planning_pkg)/cfg/$(arg robot_name)/global_costmap_params.yaml" command="load" /> 
+    <rosparam file="$(find planning_pkg)/cfg/$(arg robot_name)/base_local_planner_params.yaml" command="load" />
+ 
+    <remap from="odom" to="current_state_est" />
+    
+    <param name="recovery_behavior_enabled" value="true" />
+    <param name="controller_frequency" value="5.0" />
+    <param name="conservative_reset_dist" value="10.0" />
+  </node>
+
+</launch>

@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/build/simulation/CMakeFiles/libsocket"
+		},
+		{
+			"file" : "/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/build/simulation/CMakeFiles/libsocket.rule"
+		},
+		{
+			"file" : "/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/build/simulation/CMakeFiles/libsocket-complete.rule"
+		},
+		{
+			"file" : "/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/build/simulation/libsocket-prefix/src/libsocket-stamp/libsocket-install.rule"
+		},
+		{
+			"file" : "/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/build/simulation/libsocket-prefix/src/libsocket-stamp/libsocket-mkdir.rule"
+		},
+		{
+			"file" : "/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/build/simulation/libsocket-prefix/src/libsocket-stamp/libsocket-download.rule"
+		},
+		{
+			"file" : "/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/build/simulation/libsocket-prefix/src/libsocket-stamp/libsocket-update.rule"
+		},
+		{
+			"file" : "/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/build/simulation/libsocket-prefix/src/libsocket-stamp/libsocket-patch.rule"
+		},
+		{
+			"file" : "/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/build/simulation/libsocket-prefix/src/libsocket-stamp/libsocket-configure.rule"
+		},
+		{
+			"file" : "/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/build/simulation/libsocket-prefix/src/libsocket-stamp/libsocket-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"libsocket"
+		],
+		"name" : "libsocket"
+	}
+}

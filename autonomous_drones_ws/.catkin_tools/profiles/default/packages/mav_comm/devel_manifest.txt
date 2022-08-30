@@ -1,0 +1,2 @@
+mav_comm/mav_comm
+/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/.private/mav_comm/cmake.lock /home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/./cmake.lock

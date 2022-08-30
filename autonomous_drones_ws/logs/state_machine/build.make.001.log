@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target state_machine[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/state_machine.dir/src/state_machine.cc.o[0m
+[100%] [32m[1mLinking CXX executable /home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/.private/state_machine/lib/state_machine/state_machine[0m
+[100%] Built target state_machine

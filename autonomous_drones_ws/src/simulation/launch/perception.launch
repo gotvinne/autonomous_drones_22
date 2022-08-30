@@ -1,0 +1,15 @@
+<launch>  
+  <arg name="robot_name"/>
+
+  <node pkg="nodelet" type="nodelet" name="nodelet_manager" args="manager" output="screen"/>
+ 
+  <!-- The remaping of the camera info connected to the image_rect topic name and is therefor not straight forward
+  More info can be found here: https://github.com/ros-perception/image_pipeline/issues/687-->
+  <node pkg="nodelet" type="nodelet" name="camera_to_pointcloud"
+        args="load depth_image_proc/point_cloud_xyz nodelet_manager">
+    <!-- <remap from="/$(arg robot_name)/realsense/depth/camera_info" to="/$(arg robot_name)/realsense/depth/camera_info"/>  -->
+    <remap from="image_rect" to="realsense/depth/image_rect_raw"/>
+    <remap from="points" to="camera/pointcloud"/>
+  </node>
+
+</launch>

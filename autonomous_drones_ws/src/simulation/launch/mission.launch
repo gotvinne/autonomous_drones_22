@@ -1,0 +1,140 @@
+
+<launch>
+    <!-- Launching file for the mission -->
+    <arg name="robot_name" />
+    <arg name="corrupt_state_estimate" default="false" /> <!-- Disabel noise -->
+    <arg name="load_params" default="true" />
+  
+    <node name="pointcloud_merger" pkg="planning_pkg" type="pointcloud_merger"/>
+    
+    <node pkg="octomap_server" type="octomap_server_node" name="octomap_server">
+        <param name="resolution" value="0.5" />
+        <param name="frame_id" type="string" value="map" />
+        <param name="base_frame_id" type="string" value="map" />
+        <param name="filter_ground" type="bool" value="false" />
+        <param name="ground_filter/plane_distance" value="1.1"/>
+        <param name="ground_filter/distance" value = "1.1"/>
+        <param name="pointcloud_min_z" value="-1" />
+        <param name="occupancy_min_z" value="1.5" />
+        <param name="occupancy_max_z" value="2.5" />
+        <param name="sensor_model/max_range" value="10.0" />
+        <param name="sensor_model/hit" value="0.9" />
+        <param name="sensor_model/miss" value="0.15" />
+        <param name="sensor_model/min" value="0.05" />
+        <param name="sensor_model/max" value="0.97" />
+
+        <remap from="cloud_in" to="/pointclouds" />
+        <remap from="projected_map" to="map" />
+
+    </node>
+
+    <!-- Launching drone 1 -->
+    <group ns="drone_1">
+        <node pkg="simulation" name="w_to_unity" type="w_to_unity">
+            <param name="robot_name" value="drone_1"/>
+            <param name="unity_port" value="12346"/>
+        </node>
+
+        <include file="$(find simulation)/launch/unity_ros.launch" >
+            <arg name="load_params" value="$(arg load_params)" />
+            <arg name="robot_name" value="drone_1" />
+            <arg name="unity_port" value="9998" />
+        </include>
+
+        <node pkg="simulation"
+            type="state_estimate_corruptor_node"
+            name="state_estimate_corruptor"
+            output="screen">
+
+            <param name="robot_name" type="str" value="drone_1"/>
+
+            <!-- random-walk drift factor (grows with distance traveled) (sigma / m) -->
+            <param if="$(arg corrupt_state_estimate)" name="drift_rw_factor" value="0.03"/>
+            <param unless="$(arg corrupt_state_estimate)" name="drift_rw_factor" value="0.0"/>
+
+            <!-- independent white noise -->
+            <param if="$(arg corrupt_state_estimate)" name="pos_white_sig" value="0.005"/>
+            <param unless="$(arg corrupt_state_estimate)" name="pos_white_sig" value="0.0"/>
+
+            <!-- average number of seconds between jumps/drift updates -->
+            <param if="$(arg corrupt_state_estimate)" name="jump_seconds" value="20.0"/>
+            <param unless="$(arg corrupt_state_estimate)" name="jump_seconds" value="-1.0"/>
+        </node>
+
+        <node pkg="state_machine" type="state_machine" name="state_machine" output="screen">
+            <param name="robot_name" type="str" value="drone_1" />
+            <param name="initial_x" value="2.0" />
+            <param name="initial_y" value="-1.0" />
+            <param name="initial_z" value="0.0" />
+        </node>
+
+        <node pkg="controller_pkg" type="controller_node" name="controller_node" >
+            <param name="robot_name" type="str" value="drone_1" />
+        </node> 
+
+        <include file="$(find simulation)/launch/perception.launch" >
+            <arg name="robot_name" value="drone_1"/>
+        </include> 
+
+        <include file="$(find simulation)/launch/planning.launch" >
+            <arg name="robot_name" value="drone_1"/>
+            <arg name="potential_scale" value="0.001"/>
+        </include> 
+    </group>
+
+    <!-- Launching drone 2 -->
+    <group ns="drone_2">
+        <node pkg="simulation" name="w_to_unity" type="w_to_unity">
+            <param name="robot_name" value="drone_2"/>
+            <param name="unity_port" value="12345"/>
+        </node>
+
+        <include file="$(find simulation)/launch/unity_ros.launch" >
+            <arg name="load_params" value="$(arg load_params)" />
+            <arg name="robot_name" value="drone_2" />
+            <arg name="unity_port" value="9997" />
+        </include>
+
+        <node pkg="simulation"
+            type="state_estimate_corruptor_node"
+            name="state_estimate_corruptor"
+            output="screen">
+
+            <param name="robot_name" type="str" value="drone_2"/>
+
+            <!-- random-walk drift factor (grows with distance traveled) (sigma / m) -->
+            <param if="$(arg corrupt_state_estimate)" name="drift_rw_factor" value="0.03"/>
+            <param unless="$(arg corrupt_state_estimate)" name="drift_rw_factor" value="0.0"/>
+
+            <!-- independent white noise -->
+            <param if="$(arg corrupt_state_estimate)" name="pos_white_sig" value="0.005"/>
+            <param unless="$(arg corrupt_state_estimate)" name="pos_white_sig" value="0.0"/>
+
+            <!-- average number of seconds between jumps/drift updates -->
+            <param if="$(arg corrupt_state_estimate)" name="jump_seconds" value="20.0"/>
+            <param unless="$(arg corrupt_state_estimate)" name="jump_seconds" value="-1.0"/>
+        </node>
+
+        <node pkg="state_machine" type="state_machine" name="state_machine" output="screen">
+            <param name="robot_name" type="str" value="drone_2" />
+            <param name="initial_x" value="2.0" />
+            <param name="initial_y" value="1.0" />
+            <param name="initial_z" value="0.0" />
+        </node>
+
+        <node pkg="controller_pkg" type="controller_node" name="controller_node" >
+            <param name="robot_name" type="str" value="drone_2" />
+        </node> 
+
+        <include file="$(find simulation)/launch/perception.launch" >
+            <arg name="robot_name" value="drone_2"/>
+        </include> 
+
+        <include file="$(find simulation)/launch/planning.launch" >
+            <arg name="robot_name" value="drone_2"/>
+            <arg name="potential_scale" value="1.0"/>
+        </include> 
+    </group>
+
+</launch>
+

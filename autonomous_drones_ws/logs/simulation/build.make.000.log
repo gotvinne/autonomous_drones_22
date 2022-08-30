@@ -1,0 +1,331 @@
+[35m[1mScanning dependencies of target mav_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target trajectory_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target trajectory_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target mav_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target trajectory_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[  0%] Built target trajectory_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target mav_msgs_generate_messages_cpp
+[  0%] Built target mav_msgs_generate_messages_py
+[  0%] Built target trajectory_msgs_generate_messages_cpp
+[  0%] Built target trajectory_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target mav_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target actionlib_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target trajectory_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[  0%] Built target mav_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[  0%] Built target trajectory_msgs_generate_messages_eus
+[  0%] Built target actionlib_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[  0%] Built target roscpp_generate_messages_eus
+[35m[1mScanning dependencies of target fla_msgs_generate_messages_py[0m
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_cpp
+[35m[1mScanning dependencies of target libsocket[0m
+[  0%] Built target fla_msgs_generate_messages_py
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[  5%] [34m[1mCreating directories for 'libsocket'[0m
+[  5%] Built target sensor_msgs_generate_messages_nodejs
+[  5%] Built target sensor_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[  5%] Built target sensor_msgs_generate_messages_lisp
+[  5%] Built target geometry_msgs_generate_messages_py
+[  5%] Built target sensor_msgs_generate_messages_py
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[  5%] Built target tf2_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target actionlib_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[  5%] Built target roscpp_generate_messages_lisp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[  5%] Built target geometry_msgs_generate_messages_cpp
+[  5%] Built target actionlib_generate_messages_lisp
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[  5%] Built target rosgraph_msgs_generate_messages_py
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[  5%] Built target tf2_msgs_generate_messages_py
+[35m[1mScanning dependencies of target tf_generate_messages_eus[0m
+[  5%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_cpp[0m
+[  5%] Built target rosgraph_msgs_generate_messages_lisp
+[ 10%] [34m[1mPerforming download step (git clone) for 'libsocket'[0m
+[ 10%] Built target tf_generate_messages_eus
+[35m[1mScanning dependencies of target mav_msgs_generate_messages_lisp[0m
+[ 10%] Built target tf2_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[ 10%] Built target mav_msgs_generate_messages_lisp
+Cloning into 'libsocket'...
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[ 10%] Built target roscpp_generate_messages_nodejs
+[ 10%] Built target geometry_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target tf_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target fla_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[ 10%] Built target tf_generate_messages_cpp
+[35m[1mScanning dependencies of target tf_generate_messages_lisp[0m
+[ 10%] Built target fla_msgs_generate_messages_nodejs
+[ 10%] Built target std_msgs_generate_messages_lisp
+[ 10%] Built target tf_generate_messages_lisp
+[35m[1mScanning dependencies of target tf_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target trajectory_msgs_generate_messages_py[0m
+[ 10%] Built target tf_generate_messages_nodejs
+[35m[1mScanning dependencies of target actionlib_generate_messages_eus[0m
+[ 10%] Built target rosgraph_msgs_generate_messages_cpp
+[ 10%] Built target trajectory_msgs_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
+[ 10%] Built target actionlib_generate_messages_eus
+[35m[1mScanning dependencies of target actionlib_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target actionlib_generate_messages_py[0m
+[ 10%] Built target actionlib_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target tf_generate_messages_py[0m
+[ 10%] Built target actionlib_generate_messages_nodejs
+[ 10%] Built target tf_generate_messages_py
+[ 10%] Built target actionlib_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_nodejs[0m
+[ 10%] Built target std_msgs_generate_messages_eus
+[ 10%] Built target actionlib_msgs_generate_messages_nodejs
+[ 10%] Built target actionlib_msgs_generate_messages_lisp
+[ 10%] Built target tf2_msgs_generate_messages_nodejs
+[ 10%] Built target tf2_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[ 10%] Built target geometry_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target fla_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target fla_msgs_generate_messages_eus[0m
+[ 10%] Built target fla_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target fla_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[ 10%] Built target actionlib_msgs_generate_messages_eus
+[ 10%] Built target fla_msgs_generate_messages_eus
+[ 10%] Built target fla_msgs_generate_messages_lisp
+[ 10%] Built target geometry_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target mav_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target state_estimate_corruptor_node[0m
+[ 10%] Built target mav_msgs_generate_messages_eus
+[ 15%] [32mBuilding CXX object CMakeFiles/state_estimate_corruptor_node.dir/src/state_estimate_corruptor_node.cpp.o[0m
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+[ 25%] [34m[1mNo patch step for 'libsocket'[0m
+[ 25%] [34m[1mNo update step for 'libsocket'[0m
+[ 30%] [34m[1mPerforming configure step for 'libsocket'[0m
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Warning (dev) at /usr/share/cmake-3.16/Modules/CPack.cmake:569 (option):
+  Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+  --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+  For compatibility with older versions of CMake, option is clearing the
+  normal variable 'CPACK_BINARY_TZ'.
+Call Stack (most recent call first):
+  CMakeLists.txt:64 (INCLUDE)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /usr/share/cmake-3.16/Modules/CPack.cmake:571 (option):
+  Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+  --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+  For compatibility with older versions of CMake, option is clearing the
+  normal variable 'CPACK_BINARY_DEB'.
+Call Stack (most recent call first):
+  CMakeLists.txt:64 (INCLUDE)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /usr/share/cmake-3.16/Modules/CPack.cmake:574 (option):
+  Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+  --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+  For compatibility with older versions of CMake, option is clearing the
+  normal variable 'CPACK_BINARY_RPM'.
+Call Stack (most recent call first):
+  CMakeLists.txt:64 (INCLUDE)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /usr/share/cmake-3.16/Modules/CPack.cmake:575 (option):
+  Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+  --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+  For compatibility with older versions of CMake, option is clearing the
+  normal variable 'CPACK_BINARY_STGZ'.
+Call Stack (most recent call first):
+  CMakeLists.txt:64 (INCLUDE)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /usr/share/cmake-3.16/Modules/CPack.cmake:576 (option):
+  Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+  --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+  For compatibility with older versions of CMake, option is clearing the
+  normal variable 'CPACK_BINARY_TBZ2'.
+Call Stack (most recent call first):
+  CMakeLists.txt:64 (INCLUDE)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /usr/share/cmake-3.16/Modules/CPack.cmake:577 (option):
+  Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+  --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+  For compatibility with older versions of CMake, option is clearing the
+  normal variable 'CPACK_BINARY_TGZ'.
+Call Stack (most recent call first):
+  CMakeLists.txt:64 (INCLUDE)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/build/simulation/libsocket-prefix/src/libsocket-build
+[ 35%] [34m[1mPerforming build step for 'libsocket'[0m
+make[3]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+[35m[1mScanning dependencies of target socket_o[0m
+[  4%] [32mBuilding C object C/CMakeFiles/socket_o.dir/inet/libinetsocket.c.o[0m
+[01m[K/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/build/simulation/libsocket-prefix/src/libsocket/C/inet/libinetsocket.c:[m[K In function ‘[01m[Kcreate_inet_stream_socket[m[K’:
+[01m[K/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/build/simulation/libsocket-prefix/src/libsocket/C/inet/libinetsocket.c:221:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksfd[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  221 |         [01;35m[Kclose(sfd)[m[K;
+      |         [01;35m[K^~~~~~~~~~[m[K
+[  8%] [32mBuilding C object C/CMakeFiles/socket_o.dir/unix/libunixsocket.c.o[0m
+[  8%] Built target socket_o
+[35m[1mScanning dependencies of target socket[0m
+[ 12%] [32m[1mLinking C shared library libsocket.so[0m
+[ 12%] Built target socket
+[35m[1mScanning dependencies of target socket_int[0m
+[ 16%] [32m[1mLinking C static library libsocket_int.a[0m
+[ 16%] Built target socket_int
+[35m[1mScanning dependencies of target socket++_o[0m
+[ 20%] [32mBuilding CXX object C++/CMakeFiles/socket++_o.dir/dgramclient.cpp.o[0m
+[ 25%] [32mBuilding CXX object C++/CMakeFiles/socket++_o.dir/dgramoverstream.cpp.o[0m
+[ 29%] [32mBuilding CXX object C++/CMakeFiles/socket++_o.dir/framing.cpp.o[0m
+[ 33%] [32mBuilding CXX object C++/CMakeFiles/socket++_o.dir/inetbase.cpp.o[0m
+[ 37%] [32mBuilding CXX object C++/CMakeFiles/socket++_o.dir/inetclientstream.cpp.o[0m
+[ 41%] [32mBuilding CXX object C++/CMakeFiles/socket++_o.dir/inetserverdgram.cpp.o[0m
+[ 45%] [32mBuilding CXX object C++/CMakeFiles/socket++_o.dir/select.cpp.o[0m
+[ 50%] [32mBuilding CXX object C++/CMakeFiles/socket++_o.dir/streamclient.cpp.o[0m
+[ 54%] [32mBuilding CXX object C++/CMakeFiles/socket++_o.dir/unixclientdgram.cpp.o[0m
+[ 58%] [32mBuilding CXX object C++/CMakeFiles/socket++_o.dir/unixdgram.cpp.o[0m
+[ 40%] [32m[1mLinking CXX executable /home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/.private/simulation/lib/simulation/state_estimate_corruptor_node[0m
+[ 62%] [32mBuilding CXX object C++/CMakeFiles/socket++_o.dir/unixserverstream.cpp.o[0m
+[ 66%] [32mBuilding CXX object C++/CMakeFiles/socket++_o.dir/exception.cpp.o[0m
+[ 40%] Built target state_estimate_corruptor_node
+[ 70%] [32mBuilding CXX object C++/CMakeFiles/socket++_o.dir/inetclientdgram.cpp.o[0m
+[ 75%] [32mBuilding CXX object C++/CMakeFiles/socket++_o.dir/inetdgram.cpp.o[0m
+[ 79%] [32mBuilding CXX object C++/CMakeFiles/socket++_o.dir/inetserverstream.cpp.o[0m
+[ 83%] [32mBuilding CXX object C++/CMakeFiles/socket++_o.dir/socket.cpp.o[0m
+[ 87%] [32mBuilding CXX object C++/CMakeFiles/socket++_o.dir/unixbase.cpp.o[0m
+[ 91%] [32mBuilding CXX object C++/CMakeFiles/socket++_o.dir/unixclientstream.cpp.o[0m
+[ 95%] [32mBuilding CXX object C++/CMakeFiles/socket++_o.dir/unixserverdgram.cpp.o[0m
+[ 95%] Built target socket++_o
+[35m[1mScanning dependencies of target socket++[0m
+[100%] [32m[1mLinking CXX shared library libsocket++.so[0m
+[100%] Built target socket++
+[ 45%] [34m[1mPerforming install step for 'libsocket'[0m
+make[3]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+[  8%] Built target socket_o
+[ 12%] Built target socket
+[ 16%] Built target socket_int
+[ 95%] Built target socket++_o
+[100%] Built target socket++
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/.private/simulation/lib/libsocket.so
+-- Installing: /home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/.private/simulation/include/libsocket/unixdgram.hpp
+-- Installing: /home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/.private/simulation/include/libsocket/exception.hpp
+-- Installing: /home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/.private/simulation/include/libsocket/inetclientdgram.hpp
+-- Installing: /home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/.private/simulation/include/libsocket/libinetsocket.h
+-- Installing: /home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/.private/simulation/include/libsocket/unixserverstream.hpp
+-- Installing: /home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/.private/simulation/include/libsocket/dgramclient.hpp
+-- Installing: /home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/.private/simulation/include/libsocket/streamclient.hpp
+-- Installing: /home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/.private/simulation/include/libsocket/inetserverstream.hpp
+-- Installing: /home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/.private/simulation/include/libsocket/unixclientdgram.hpp
+-- Installing: /home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/.private/simulation/include/libsocket/socket.hpp
+-- Installing: /home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/.private/simulation/include/libsocket/inetbase.hpp
+-- Installing: /home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/.private/simulation/include/libsocket/inetserverdgram.hpp
+-- Installing: /home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/.private/simulation/include/libsocket/unixclientstream.hpp
+-- Installing: /home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/.private/simulation/include/libsocket/libunixsocket.h
+-- Installing: /home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/.private/simulation/include/libsocket/select.hpp
+-- Installing: /home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/.private/simulation/include/libsocket/inetclientstream.hpp
+-- Installing: /home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/.private/simulation/include/libsocket/unixbase.hpp
+-- Installing: /home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/.private/simulation/include/libsocket/unixserverdgram.hpp
+-- Installing: /home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/.private/simulation/include/libsocket/inetdgram.hpp
+-- Installing: /home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/.private/simulation/include/libsocket/dgramoverstream.hpp
+-- Installing: /home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/.private/simulation/include/libsocket/framing.hpp
+-- Installing: /home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/.private/simulation/include/libsocket/epoll.hpp
+-- Installing: /home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/.private/simulation/lib/libsocket++.so
+[ 50%] [34m[1mCompleted 'libsocket'[0m
+[ 50%] Built target libsocket
+[35m[1mScanning dependencies of target tcpstreamreader[0m
+[35m[1mScanning dependencies of target w_to_unity_two[0m
+[35m[1mScanning dependencies of target w_to_unity_one[0m
+[ 55%] [32mBuilding CXX object tcpimage/CMakeFiles/tcpstreamreader.dir/TCPStreamReader.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/w_to_unity_one.dir/src/w_to_unity_one.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/w_to_unity_two.dir/src/w_to_unity_two.cpp.o[0m
+[ 70%] [32m[1mLinking CXX shared library /home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/.private/simulation/lib/libtcpstreamreader.so[0m
+[ 70%] Built target tcpstreamreader
+[35m[1mScanning dependencies of target tcpimage[0m
+[ 75%] [32mBuilding CXX object tcpimage/CMakeFiles/tcpimage.dir/TCPImageServer.cpp.o[0m
+[ 80%] [32m[1mLinking CXX shared library /home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/.private/simulation/lib/libtcpimage.so[0m
+[ 80%] Built target tcpimage
+[35m[1mScanning dependencies of target unity_ros[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/unity_ros.dir/src/unity_ros.cpp.o[0m
+In file included from [01m[K/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/src/simulation/src/unity_ros.cpp:10[m[K:
+[01m[K/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/src/simulation/src/rgb_camera_parser.h:[m[K In member function ‘[01m[Kvirtual bool RGBCameraParser::ParseMessage(const UnityHeader&, TCPStreamReader&, double)[m[K’:
+[01m[K/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/src/simulation/src/rgb_camera_parser.h:22:3:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   22 |   [01;35m[K}[m[K
+      |   [01;35m[K^[m[K
+In file included from [01m[K/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/src/simulation/src/unity_ros.cpp:12[m[K:
+[01m[K/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/src/simulation/src/fisheye_camera_parser.h:[m[K In member function ‘[01m[Kvirtual bool FisheyeCameraParser::ParseMessage(const UnityHeader&, TCPStreamReader&, double)[m[K’:
+[01m[K/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/src/simulation/src/fisheye_camera_parser.h:20:3:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   20 |   [01;35m[K}[m[K
+      |   [01;35m[K^[m[K
+In file included from [01m[K/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/src/simulation/src/unity_ros.cpp:13[m[K:
+[01m[K/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/src/simulation/src/imu_parser.h:[m[K In member function ‘[01m[Kvirtual bool IMUParser::ParseMessage(const UnityHeader&, TCPStreamReader&, double)[m[K’:
+[01m[K/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/src/simulation/src/imu_parser.h:42:3:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   42 |   [01;35m[K}[m[K
+      |   [01;35m[K^[m[K
+In file included from [01m[K/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/src/simulation/src/unity_ros.cpp:14[m[K:
+[01m[K/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/src/simulation/src/true_state_parser.h:[m[K In member function ‘[01m[Kvirtual bool TrueStateParser::ParseMessage(const UnityHeader&, TCPStreamReader&, double)[m[K’:
+[01m[K/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/src/simulation/src/true_state_parser.h:93:3:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   93 |   [01;35m[K}[m[K
+      |   [01;35m[K^[m[K
+[ 90%] [32m[1mLinking CXX executable /home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/.private/simulation/lib/simulation/w_to_unity_two[0m
+[ 95%] [32m[1mLinking CXX executable /home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/.private/simulation/lib/simulation/w_to_unity_one[0m
+[ 95%] Built target w_to_unity_two
+[ 95%] Built target w_to_unity_one
+[100%] [32m[1mLinking CXX executable /home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/.private/simulation/lib/simulation/unity_ros[0m
+[100%] Built target unity_ros

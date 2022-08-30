@@ -1,0 +1,6 @@
+devel_space: /home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel
+install: false
+install_space: /home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/install
+profile: default
+source_space: /home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/src
+workspace: /home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws

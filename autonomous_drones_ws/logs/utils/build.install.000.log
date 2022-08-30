@@ -1,0 +1,7 @@
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/lib/cmake/utils/utilsConfig.cmake
+-- Installing: /home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/lib/cmake/utils/utilsConfigVersion.cmake
+-- Installing: /home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/include/utils/time_manager
+-- Installing: /home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/include/utils/time_manager/clock.h
+-- Installing: /home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/include/utils/time_manager/time_manager.h

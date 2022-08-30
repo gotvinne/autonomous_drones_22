@@ -1,0 +1,25 @@
+TrajectoryPlannerROS:
+  max_vel_x: 5.0
+  min_vel_x: 0.0
+  max_vel_y: 5.0
+  min_vel_y: 0.0
+  max_vel_theta: 0.5
+  min_vel_theta: -0.5
+  min_in_place_vel_theta: 2.0
+
+  acc_lim_theta: 0.5
+  acc_lim_x: 0.5
+  acc_lim_y: 0.5
+
+  holonomic_robot: true
+
+  global_frame_id: drone_1/body
+  yaw_goal_tolerance: 0.2
+
+  heading_scoring: false
+  meter_scoring: true
+
+  sim_time: 5.0
+  sim_granularity: 0.025
+
+  path_distance_bias: 4

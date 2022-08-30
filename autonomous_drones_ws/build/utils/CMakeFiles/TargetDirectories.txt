@@ -1,0 +1,6 @@
+/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/build/utils/CMakeFiles/install/strip.dir
+/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/build/utils/CMakeFiles/install/local.dir
+/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/build/utils/CMakeFiles/install.dir
+/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/build/utils/CMakeFiles/list_install_components.dir
+/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/build/utils/CMakeFiles/rebuild_cache.dir
+/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/build/utils/CMakeFiles/edit_cache.dir

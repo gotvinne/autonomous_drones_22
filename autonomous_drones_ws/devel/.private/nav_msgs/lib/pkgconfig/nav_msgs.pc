@@ -1,0 +1,8 @@
+prefix=/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/.private/nav_msgs
+
+Name: nav_msgs
+Description: Description of nav_msgs
+Version: 1.13.1
+Cflags: -I/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/.private/nav_msgs/include
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs message_runtime std_msgs actionlib_msgs

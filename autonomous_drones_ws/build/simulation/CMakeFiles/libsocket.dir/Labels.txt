@@ -1,0 +1,13 @@
+# Target labels
+ libsocket
+# Source files and their labels
+/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/build/simulation/CMakeFiles/libsocket
+/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/build/simulation/CMakeFiles/libsocket.rule
+/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/build/simulation/CMakeFiles/libsocket-complete.rule
+/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/build/simulation/libsocket-prefix/src/libsocket-stamp/libsocket-install.rule
+/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/build/simulation/libsocket-prefix/src/libsocket-stamp/libsocket-mkdir.rule
+/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/build/simulation/libsocket-prefix/src/libsocket-stamp/libsocket-download.rule
+/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/build/simulation/libsocket-prefix/src/libsocket-stamp/libsocket-update.rule
+/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/build/simulation/libsocket-prefix/src/libsocket-stamp/libsocket-patch.rule
+/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/build/simulation/libsocket-prefix/src/libsocket-stamp/libsocket-configure.rule
+/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/build/simulation/libsocket-prefix/src/libsocket-stamp/libsocket-build.rule

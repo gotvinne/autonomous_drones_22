@@ -1,0 +1,1 @@
+cmd='/usr/bin/cmake;-DCMAKE_INSTALL_PREFIX:PATH=/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/.private/simulation;-DCMAKE_BUILD_TYPE:STRING=Release;-DBUILD_SHARED_LIBS=ON;-GUnix Makefiles;<SOURCE_DIR><SOURCE_SUBDIR>'

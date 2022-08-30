@@ -1,0 +1,8 @@
+prefix=/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/.private/fla_utils
+
+Name: fla_utils
+Description: Description of fla_utils
+Version: 0.0.0
+Cflags: -I/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/src/utilities/fla_utils/include -I/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/src/utilities/fla_utils/src -I/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/include/utils
+Libs: -L${prefix}/lib 
+Requires: 

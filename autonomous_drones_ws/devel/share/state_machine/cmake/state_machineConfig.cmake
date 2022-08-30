@@ -1,0 +1,1 @@
+/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/.private/state_machine/share/state_machine/cmake/state_machineConfig.cmake

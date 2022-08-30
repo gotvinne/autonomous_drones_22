@@ -1,0 +1,20 @@
+In file included from [01m[K/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/src/simulation/src/unity_ros.cpp:10[m[K:
+[01m[K/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/src/simulation/src/rgb_camera_parser.h:[m[K In member function ‘[01m[Kvirtual bool RGBCameraParser::ParseMessage(const UnityHeader&, TCPStreamReader&, double)[m[K’:
+[01m[K/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/src/simulation/src/rgb_camera_parser.h:22:3:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   22 |   [01;35m[K}[m[K
+      |   [01;35m[K^[m[K
+In file included from [01m[K/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/src/simulation/src/unity_ros.cpp:12[m[K:
+[01m[K/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/src/simulation/src/fisheye_camera_parser.h:[m[K In member function ‘[01m[Kvirtual bool FisheyeCameraParser::ParseMessage(const UnityHeader&, TCPStreamReader&, double)[m[K’:
+[01m[K/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/src/simulation/src/fisheye_camera_parser.h:20:3:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   20 |   [01;35m[K}[m[K
+      |   [01;35m[K^[m[K
+In file included from [01m[K/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/src/simulation/src/unity_ros.cpp:13[m[K:
+[01m[K/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/src/simulation/src/imu_parser.h:[m[K In member function ‘[01m[Kvirtual bool IMUParser::ParseMessage(const UnityHeader&, TCPStreamReader&, double)[m[K’:
+[01m[K/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/src/simulation/src/imu_parser.h:42:3:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   42 |   [01;35m[K}[m[K
+      |   [01;35m[K^[m[K
+In file included from [01m[K/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/src/simulation/src/unity_ros.cpp:14[m[K:
+[01m[K/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/src/simulation/src/true_state_parser.h:[m[K In member function ‘[01m[Kvirtual bool TrueStateParser::ParseMessage(const UnityHeader&, TCPStreamReader&, double)[m[K’:
+[01m[K/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/src/simulation/src/true_state_parser.h:93:3:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   93 |   [01;35m[K}[m[K
+      |   [01;35m[K^[m[K

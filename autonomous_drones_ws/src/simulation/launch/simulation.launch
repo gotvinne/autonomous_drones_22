@@ -1,0 +1,66 @@
+<launch>
+  <!-- Defining arguments to pass to nodes -->
+  <arg name="load_params" default="true" />
+  
+  <arg name="right_image_topic" default="/drone_1/realsense/rgb/right_image_raw" />
+  <arg name="right_info_topic" default="/drone_1/realsense/rgb/right_image_info" />
+  <arg name="left_image_topic" default="/drone_1/realsense/rgb/left_image_raw" />
+  <arg name="left_info_topic" default="/drone_1/realsense/rgb/left_image_info" />
+  <arg name="depth_image_topic" default="/drone_1/realsense/depth/image" />
+  <arg name="depth_info_topic" default="/drone_1/realsense/depth/camera_info" />
+
+  <arg name="right_image_topic2" default="/drone_2/realsense/rgb/image_rect_raw" />
+  <arg name="right_info_topic2" default="/drone_2/realsense/rgb/camera_info" />
+  <arg name="left_image_topic2" default="/drone_2/realsense/rgb/image_rect_raw" />
+  <arg name="left_info_topic2" default="/drone_2/realsense/rgb/camera_info" />
+  <arg name="depth_image_topic2" default="/drone_2/realsense/depth/image_rect_raw" />
+  <arg name="depth_info_topic2" default="/drone_2/realsense/depth/camera_info" />
+
+  <node name="Simulation" pkg="simulation" type="Two_Drones.x86_64"/>
+
+  <!-- Publishing values to tf drone 1--> 
+  <node pkg="tf2_ros" type="static_transform_publisher"
+        name="sim_true_body"      args="0 0 0 0 0 0 /Quadrotor/TrueState /drone_1/true_body" />
+
+  <node pkg="tf2_ros" type="static_transform_publisher"
+        name="sim_rgb_camera"      args="0 0 0 0 0 0 /drone_1/camera /Quadrotor/RGBCameraLeft " />
+
+  <node pkg="tf2_ros" type="static_transform_publisher"
+        name="sim_depth_camera"      args="0 0 0 0 0 0 /drone_1/depth_camera /Quadrotor/DepthCamera" />
+
+  <node pkg="tf2_ros" type="static_transform_publisher"
+        name="sim_left_camera"      args="0 0 0 0 0 0 /drone_1/camera /Quadrotor/RGBCameraLeft" />
+
+  <node pkg="tf2_ros" type="static_transform_publisher"
+        name="camera_to_body"      args="0 0 0 0 0 0 /drone_1/true_body /drone_1/camera" />
+
+  <node pkg="tf2_ros" type="static_transform_publisher"
+        name="depth_camera_to_body"      args="0 0 0 0 0 0 /drone_1/true_body /drone_1/depth_camera" />
+
+  <node pkg="tf2_ros" type="static_transform_publisher"
+        name="depth_camera_frame_to_body"      args="0 0 0 -1.57079632679 0 -1.57079632679 /drone_1/true_body /Quadrotor/Sensors/DepthCamera" />
+
+  <!-- Publishing values to tf drone 2 --> 
+  <node pkg="tf2_ros" type="static_transform_publisher"
+        name="sim_true_body2"      args="0 0 0 0 0 0 /Quadrotor2/TrueState /drone_2/true_body" />
+
+  <node pkg="tf2_ros" type="static_transform_publisher"
+        name="sim_rgb_camera2"      args="0 0 0 0 0 0 /drone_2/camera /Quadrotor2/RGBCameraLeft " />
+
+  <node pkg="tf2_ros" type="static_transform_publisher"
+        name="sim_depth_camera2"      args="0 0 0 0 0 0 /drone_2/depth_camera /Quadrotor2/DepthCamera" />
+  <node pkg="tf2_ros" type="static_transform_publisher"
+        name="sim_left_camera2"      args="0 0 0 0 0 0 /drone_2/camera /Quadrotor2/RGBCameraLeft" />
+
+  <node pkg="tf2_ros" type="static_transform_publisher"
+        name="camera_to_body2"      args="0 0 0 0 0 0 /drone_2/true_body /drone_2/camera" />
+
+  <node pkg="tf2_ros" type="static_transform_publisher"
+        name="depth_camera_to_body2"      args="0 0 0 0 0 0 /drone_2/true_body /drone_2/depth_camera" />
+
+  <node pkg="tf2_ros" type="static_transform_publisher"
+        name="depth_camera_frame_to_body2"      args="0 0 0 -1.57079632679 0 -1.57079632679 /drone_2/true_body  /Quadrotor2/Sensors/DepthCamera" />
+  
+  <node pkg="tf2_ros" type="static_transform_publisher"
+        name="world_to_map"      args="0 0 0 0 0 0 /world /map" /> 
+</launch>

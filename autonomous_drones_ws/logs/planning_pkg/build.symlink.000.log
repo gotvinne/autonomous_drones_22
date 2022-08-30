@@ -1,0 +1,5 @@
+Symlinking /home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/lib/pkgconfig/planning_pkg.pc
+Symlinking /home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/lib/planning_pkg/map_service
+Symlinking /home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/lib/planning_pkg/point_cloud_converter
+Symlinking /home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/share/planning_pkg/cmake/planning_pkgConfig.cmake
+Symlinking /home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/share/planning_pkg/cmake/planning_pkgConfig-version.cmake

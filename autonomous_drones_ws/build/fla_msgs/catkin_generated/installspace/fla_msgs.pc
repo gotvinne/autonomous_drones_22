@@ -1,0 +1,8 @@
+prefix=/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/install
+
+Name: fla_msgs
+Description: Description of fla_msgs
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

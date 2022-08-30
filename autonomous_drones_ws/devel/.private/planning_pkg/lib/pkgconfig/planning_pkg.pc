@@ -1,0 +1,8 @@
+prefix=/home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/.private/planning_pkg
+
+Name: planning_pkg
+Description: Description of planning_pkg
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: mav_msgs

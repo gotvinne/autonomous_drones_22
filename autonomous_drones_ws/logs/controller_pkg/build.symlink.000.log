@@ -1,0 +1,5 @@
+Symlinking /home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/lib/pkgconfig/controller_pkg.pc
+Symlinking /home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/lib/controller_pkg/desired_state_publisher
+Symlinking /home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/lib/controller_pkg/controller_node
+Symlinking /home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/share/controller_pkg/cmake/controller_pkgConfig-version.cmake
+Symlinking /home/gotvinne/Documents/autonomous_drones_ss2022/autonomous_drones_ws/devel/share/controller_pkg/cmake/controller_pkgConfig.cmake
